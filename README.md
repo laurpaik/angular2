@@ -202,7 +202,7 @@ In **app.component.css**, we will put all of the styles that pertain to our comp
 
 All of our unit tests for the component will live in **app.component.spec.ts**. We won't dive into testing too much, but Angular 2 natively supports the Jasmine testing framework.
 
-With **app.component.html**, we see our first Angular 2 template. 
+With **app.component.html**, we see our first Angular 2 template.
 
 ```html
 <h1>
@@ -212,7 +212,7 @@ With **app.component.html**, we see our first Angular 2 template.
 
 As you can see, Angular uses the same double bracket binding syntax as Ember.
 
-The beating heart of our component exists in **app.component.ts**. 
+The beating heart of our component exists in **app.component.ts**.
 
 ```typescript
 @Component({
@@ -268,7 +268,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
-We import a few basic helper modules from angular to provide to our module. 
+We import a few basic helper modules from angular to provide to our module.
 
 Then we deocrate our app module class with metadata, so it can be bootstrapped in **main.ts**.
 
@@ -357,6 +357,21 @@ And use it!
 
 -   [Angular-cli github page](https://github.com/angular/angular-cli)
 -   [Official Angular Documentation](https://github.com/angular/angular-cli)
+
+
+## Notes
+-- Yoo the styles you have in a component are only available in the template of that component
+-- Any new component you make has its own safe place in terms of styles
+-- Btw Angular isn't real html
+-- Angular has a way to make ajax requests, cool
+-- app.module.ts --> we import a bunch of stuff from angular, then we declare
+our AppComponent so we can use it in your scope... it injects the component in the module
+-- YOOOO remember to separate your concerns, don't nest your folders
+-- <nameOfThing>.<typeOfThing>.<typeOfFile>
+  -- example: `masterSword.component.ts`
+-- module files only get made ONCE
+  -- the scaffold did this for us LOL
+
 
 ## [License](LICENSE)
 
