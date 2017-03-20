@@ -360,17 +360,17 @@ And use it!
 
 
 ## Notes
--- Yoo the styles you have in a component are only available in the template of that component
--- Any new component you make has its own safe place in terms of styles
--- Btw Angular isn't real html
--- Angular has a way to make ajax requests, cool
--- app.module.ts --> we import a bunch of stuff from angular, then we declare
+- Yoo the styles you have in a component are only available in the template of that component
+- Any new component you make has its own safe place in terms of styles
+- Btw Angular isn't real html
+- Angular has a way to make ajax requests, cool
+- app.module.ts --> we import a bunch of stuff from angular, then we declare
 our AppComponent so we can use it in your scope... it injects the component in the module
--- YOOOO remember to separate your concerns, don't nest your folders
--- <nameOfThing>.<typeOfThing>.<typeOfFile>
-  -- example: `masterSword.component.ts`
--- module files only get made ONCE
-  -- the scaffold did this for us LOL
+- YOOOO remember to separate your concerns, don't nest your folders
+- <nameOfThing>.<typeOfThing>.<typeOfFile>
+  - example: `masterSword.component.ts`
+- module files only get made ONCE
+  - the scaffold did this for us LOL
 
 
 ## [License](LICENSE)
